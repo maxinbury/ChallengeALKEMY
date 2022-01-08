@@ -3,7 +3,8 @@ Challenge de Data Analytics en python: normalización, procesamiento, disponibil
 
 ## Paso 1 - Procesamiento de Datos.
 Para comenzar, use Python y Requests con el objeto de realizar el pedido a los datasets ubicados en la web de  https://datos.cultura.gob.ar, y almacenarlos de forma local. Luego, utilice Pandas para el análisis, exploración y normalización de los datos. Todo el siguiente análisis debe seguirse utilizando consultas en Pandas.
-#	Normalización de toda la información de Museos, Salas de Cine y Bibliotecas, creando una tabla que se dispone y contiene lo siguiente:
+
+### Normalización de toda la información de Museos, Salas de Cine y Bibliotecas, creando una tabla que se dispone y contiene lo siguiente:
 o cod_localidad
 o id_provincia
 o id_departamento
@@ -16,13 +17,14 @@ o código postal
 o número de teléfono
 o mail
 o web
-#	Procesamiento de los datos para poder generar una tabla con la siguiente información:
+
+### Procesamiento de los datos para poder generar una tabla con la siguiente información:
 
 o Cantidad de registros totales por categoría
 o Cantidad de registros totales por fuente
 o Cantidad de registros por provincia y categoría Utilice 
 
-#	Procesamiento de la información de cines para poder crear una tabla que contenga:
+###	Procesamiento de la información de cines para poder crear una tabla que contenga:
 
 o Provincia
 o Cantidad de pantallas
@@ -32,7 +34,10 @@ o Cantidad de espacios INCAA
 •	Para disponibilizar la información obtenida y procesada en los pasos previos, el proyecto utiliza como base datos PosgreSQL.
 •	Utilicé SQLAlchemy ORM create_engine para conectar la base de datos
 
+# Todo estos pasos estan hechos en Jupyter Notebook para una mejor visualizacion y control del proceso. [here](ChallengeALKEMY
+/main.ipynb)
+
 ## Paso 3 - Deploy
-• Para facilitar el deploy cree una notebook donde se conecta fácilmente a la base de datos PostgreSQL y podemos a empezar a manipular los datos y updatearlos.
+• Para facilitar el deploy cree un script usando cursor donde se conecta fácilmente a la base de datos PostgreSQL y podemos a empezar a manipular los datos y updatearlos.
 ________________________________________
 
