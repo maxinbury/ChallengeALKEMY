@@ -34,8 +34,7 @@ o Cantidad de espacios INCAA
 •	Para disponibilizar la información obtenida y procesada en los pasos previos, el proyecto utiliza como base datos PosgreSQL.
 •	Utilicé SQLAlchemy ORM create_engine para conectar la base de datos
 
-# Todo estos pasos estan hechos en Jupyter Notebook para una mejor visualizacion y control del proceso. [here](ChallengeALKEMY
-/main.ipynb)
+# Todo estos pasos estan hechos en Jupyter Notebook para una mejor visualizacion y control del proceso. [main.ipynb](ChallengeALKEMY/main.ipynb)
 
 ## Paso 3 - Deploy
 • Para facilitar el deploy cree un script usando cursor donde se conecta fácilmente a la base de datos PostgreSQL y podemos a empezar a manipular los datos y updatearlos.
